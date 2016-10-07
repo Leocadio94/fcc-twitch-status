@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+body {
+  font-family: 'Oswald', serif;
+  background-color: #5C5457;
+}
+
+.title {
+  background-co1or: #999;
+}
+
+#streamers {
+  font-size: 1.5em;
+  border: 10px solid #333;
+}
+
+.title h1 {
+  background-color: #5C5457;
+  color: white;
+  font-size: 3.0em;
+  margin-bottom: 0px;
+  border: 10px solid #333;
+}
+
+.title h1,
+.streamers-online,
+.streamers-offline {
+  padding: 5px 5px 5px 20px;
+  width: 100%;
+  border-bottom: thick solid #333;
+  margin-bottom: 0px;
+}
+
+.streamers-online {
+  background-color: #B8CCA6;
+  color: black;
+  margin-bottom: 0px;
+}
+
+.streamers-offline {
+  background-color: #4A5E82;
+  color: white;
+  margin-bottom: 0px;
+}
+
+.pic {
+  border-radius: 50%;
+  border-color: black;
+  border-style: solid;
+  border-width: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+.btn {
+  color: black;
+  border: solid black 1px;
+}
+
+.btn:hover {
+  color: #111;
+}
+
+.all {
+  background-color: #5C5457;
+}
+
+.online {
+  background-color: #B8CCA6;
+}
+
+.offline {
+  background-color: #4A5E82;
+}
+.streamers-online .name a, .streamers-online .name a:hover {
+  color:black;
+}
+.streamers-offline .name a, .streamers-offline .name a:hover {
+  color:white;
+}
+.streamers-online:hover, .streamers-offline:hover {
+  cursor: pointer;
+  border-left: thick solid #ff5500;
+}
+
+@media screen and ( min-width: 940px) {
+  .title,
+  #streamers {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+}
